@@ -3,7 +3,6 @@
     <div class="container">
       <div><h2>Flashcode</h2><p>从一个想法，到可以运行的应用。</p></div>
       <nav aria-label="页脚导航"><RouterLink to="/">应用工作台</RouterLink><RouterLink to="/cases">案例广场</RouterLink><RouterLink to="/about">关于项目</RouterLink></nav>
-      <p class="signature">Flashcode · 葛佳维护<br>基于课程框架学习与完善，源码归属见项目说明。</p>
     </div>
   </footer>
 </template>
@@ -20,5 +19,4 @@ p { line-height: 1.8; margin: 0; font-size: 14px; }
 nav { display: flex; gap: 24px; flex-wrap: wrap; }
 a { color: #c8d5ef; text-decoration: none; }
 a:hover { color: #fff; }
-.signature { font-size: 12px; }
 </style>

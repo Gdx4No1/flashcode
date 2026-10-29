@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="612" height="374" viewBox="0 0 612 374" role="img" aria-labelledby="title desc">
   <title id="title">Flashcode 项目功能概览</title>
-  <desc id="desc">葛佳维护的 AI 应用生成项目：需求整理、代码生成、构建预览和应用管理。</desc>
+  <desc id="desc">AI 应用生成工具：需求整理、代码生成、构建预览和应用管理。</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#edf5ff"/><stop offset="1" stop-color="#edf0ff"/></linearGradient>
     <linearGradient id="brand" x2="1" y2="1"><stop stop-color="#1677ff"/><stop offset="1" stop-color="#6554e8"/></linearGradient>
@@ -11,7 +11,7 @@
     <rect x="30" y="30" width="52" height="52" rx="15" fill="url(#brand)"/>
     <path d="M46 42h24v7H54v7h13v7H54v10h-8z" fill="#fff"/>
     <text x="98" y="54" font-size="25" font-weight="700" fill="#172e55">Flashcode</text>
-    <text x="99" y="77" font-size="13" fill="#536783">AI 应用生成 · 葛佳维护</text>
+    <text x="99" y="77" font-size="13" fill="#536783">AI 应用生成与管理</text>
     <text x="30" y="118" font-size="14" fill="#536783">从需求到应用，探索完整的开发流程</text>
     <g fill="#fff" stroke="#dae5f5">
       <rect x="30" y="144" width="266" height="83" rx="16"/>
@@ -33,6 +33,5 @@
       <text x="48" y="301">连接构建环境，查看应用效果</text>
       <text x="330" y="301">整理应用、源码与版本信息</text>
     </g>
-    <text x="30" y="354" font-size="11" fill="#74839a">功能可用性以部署环境与实际验收结果为准</text>
   </g>
 </svg>

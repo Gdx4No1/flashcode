@@ -1,6 +1,6 @@
 # Flashcode
 
-葛佳维护的 AI 应用生成与管理学习项目，基于课程框架继续实践需求整理、代码生成、构建预览、源码编辑和应用管理。
+AI 应用生成与管理工具，包含需求整理、代码生成、构建预览、源码编辑和应用管理。
 
 ## 项目结构
 
@@ -59,6 +59,4 @@ npm run dev
 
 原 common-core 存在两个 null Long 复制到 long 的测试错误，Gitee MCP 模块测试依赖不齐；未通过跳过测试来声称全测成功。历史构建成功不表示这些单元测试已修复。本次源码上传的最新验证见 [docs/发布检查.md](docs/发布检查.md)。
 
-## 来源和使用条件
-
-后端课程来源：[zhibite-edu/flashcode](https://gitee.com/zhibite-edu/flashcode)；前端课程来源：[zhibite-edu/flashcode-fe](https://gitee.com/zhibite-edu/flashcode-fe)。原权利归属和使用条件分别保留在 [后端来源说明](backend/NOTICE.upstream.md) 与 [前端来源说明](frontend/NOTICE.upstream.md)。本仓库不另行授予与原条件冲突的开源许可，也不声称课程原代码为本人原创。使用、改编或再分发应取得相应权利。
+使用条件见 [后端说明](backend/NOTICE.upstream.md) 和 [前端说明](frontend/NOTICE.upstream.md)。

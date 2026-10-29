@@ -4,10 +4,10 @@
             <div class="intro-left">
                 <div class="intro-title">项目介绍</div>
                 <p class="intro-text">
-                    Flashcode 是葛佳维护的 AI 应用生成项目，围绕需求整理、代码生成、构建预览和应用管理展开实践。
+                    Flashcode 是一个 AI 应用生成工具，提供需求整理、代码生成、构建预览和应用管理。
                 </p>
                 <p class="intro-text">
-                    项目基于课程框架学习与完善，重点实践模型服务接入、生成文件校验、安全写入和前后端协作。功能运行状态以实际环境和测试结果为准，源码来源与使用条件见项目说明。
+                    通过自然语言描述应用需求，在工作台查看需求文档、生成代码和预览页面，集中管理应用与源码。
                 </p>
             </div>
             <div class="intro-right">
