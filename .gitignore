@@ -1,0 +1,26 @@
+# Dependencies, build products and local state
+**/node_modules/
+**/target/
+**/dist/
+**/.local/
+**/__pycache__/
+**/.idea/
+**/.vscode/
+*.iml
+*.log
+*.pyc
+*.local
+*.local.*
+**/.env
+**/.env.*
+!**/.env.example
+!**/*.example.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+**/user-code/
+**/user-preview/
+.DS_Store
+Thumbs.db

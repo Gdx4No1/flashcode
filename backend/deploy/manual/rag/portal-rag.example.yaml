@@ -1,0 +1,42 @@
+# Supplemental portal configuration, not a complete application configuration.
+# This file is NOT loaded by the current local launcher.
+# No secrets, no automatic schema initialization and no startup action.
+flashcode:
+  ai:
+    base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com}
+    api-key: ${DEEPSEEK_API_KEY}
+    model: ${DEEPSEEK_MODEL:deepseek-chat}
+spring:
+  ai:
+    model:
+      embedding: dashscope
+    deepseek:
+      model: ${DEEPSEEK_MODEL:deepseek-chat}
+    context-window:
+      coder: ${FLASHCODE_CONTEXT_WINDOW:64000}
+    # OpenAI protocol is used for the personal text model only.
+    openai:
+      base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com}
+      api-key: ${DEEPSEEK_API_KEY}
+    # Requires a real DashScope key. Never reuse a DeepSeek key here.
+    dashscope:
+      api-key: ${DASHSCOPE_API_KEY}
+      chat:
+        options:
+          model: ${DASHSCOPE_CHAT_MODEL:qwen3-coder-plus}
+      embedding:
+        enabled: true
+        options:
+          model: text-embedding-v3
+          dimensions: 1024
+    vectorstore:
+      milvus:
+        client:
+          host: ${FLASHCODE_MILVUS_HOST:127.0.0.1}
+          port: ${FLASHCODE_MILVUS_PORT:19530}
+        # Fresh dedicated Milvus database: default exists without creating a database.
+        database-name: default
+        collection-name: gejia_app_refs
+        embedding-dimension: 1024
+        # Enable once only after verifying this is the NEW private Milvus instance.
+        initialize-schema: ${FLASHCODE_MILVUS_INITIALIZE_SCHEMA:false}

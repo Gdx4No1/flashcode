@@ -1,0 +1,25 @@
+server:
+  port: 19090
+
+spring:
+  application:
+    name: flashcode-gitee-mcp-server
+  profiles:
+    active: ${RUN_ENV}
+  cloud:
+    nacos:
+      discovery:
+        username: "${NACOS_USERNAME}"
+        password: "${NACOS_PASSWORD}"
+        namespace: flashcode-${RUN_ENV}
+        server-addr: ${NACOS_ADDR}
+      config:
+        username: "${NACOS_USERNAME}"
+        password: "${NACOS_PASSWORD}"
+        namespace: flashcode-${RUN_ENV}
+        server-addr: ${NACOS_ADDR}
+        file-extension: yaml
+
+logging:
+  pattern:
+    console: '[%thread] %-5level %logger{36} - %msg%n'

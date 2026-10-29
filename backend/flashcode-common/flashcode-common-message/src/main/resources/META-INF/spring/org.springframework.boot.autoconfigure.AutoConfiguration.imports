@@ -1,0 +1,5 @@
+com.gejia.flashcode.flashcodecommonmessage.config.AliSmsConfig
+com.gejia.flashcode.flashcodecommonmessage.service.AliSmsService
+com.gejia.flashcode.flashcodecommonmessage.service.CaptchaService
+com.gejia.flashcode.flashcodecommonmessage.config.EmailConfig
+com.gejia.flashcode.flashcodecommonmessage.service.EmailService
